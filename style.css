@@ -59,4 +59,5 @@ body {
 
 .card__link-icon:hover {
   color: #d63031;
+  font-weight: bold;
 }
