@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #b2b2b2;
+  margin-top: 200px;
+}
+
+.card {
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card__photo {
+  max-width: 140px;
+  height: 140px;
+  border: 3px solid white;
+  border-radius: 60px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
